@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>4-十年拾忆</title>
+<link href="res/css/style.css" type="text/css" rel="stylesheet" />
+<script src="res/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="res/js/pageH.js" type="text/javascript"></script>
+</head>
+
+<body class="bg4">
+	<div class="page page4">
+    	<div class="p4_title"><img src="res/images/p4_title.png" /></div>
+        <div class="commit_box">
+        	<div class="commit_list">
+            	<div class="commit_ship">
+                	<div class="user_img"><img src="res/images/user_img.jpg" /></div>
+                    <div class="commit_txt">
+                    	<div class="commit_txt_top">
+                        	<div class="commit_user">雲间烟火</div>
+                            <div class="commit_time">5-18 14:00</div>
+                            <div class="commit_num">100楼</div>
+                        </div>
+                        <div class="commit_info">
+                        	<span class="topic">#拾年#</span>在2008年与医脉通相识。最初是使用全医药学大词典大词典，不知不觉8年了。祝医脉通10周年快乐!越办越好！
+                        </div>
+                    </div>
+                </div>                
+                <div class="commit_ship">
+                	<div class="user_img"><img src="res/images/user_img.jpg" /></div>
+                    <div class="commit_txt">
+                    	<div class="commit_txt_top">
+                        	<div class="commit_user">雲间烟火</div>
+                            <div class="commit_time">5-18 14:00</div>
+                            <div class="commit_num">99楼</div>
+                        </div>
+                        <div class="commit_info">
+                        	<span class="topic">#拾年#</span>在2008年与医脉通相识。最初是使用全医药学大词典大词典，不知不觉8年了。祝医脉通10周年快乐!越办越好！这里的文字比较多很长很长很长比较场比较，最初是使用全医药学大词典大词典，不知不觉8年了。若数字超过了140个字，就以省略。祝医脉通10周年快乐!越办越好！这里的文字比较多很长比较场。欢迎大家分享你与医脉通的故事，说说流过你指尖的十年点击收起全文时，回到省略状态。
+                        </div>
+                    </div>
+                </div>
+                <div class="commit_ship">
+                	<div class="user_img"><img src="res/images/user_img.jpg" /></div>
+                    <div class="commit_txt">
+                    	<div class="commit_txt_top">
+                        	<div class="commit_user">雲间烟火</div>
+                            <div class="commit_time">5-18 14:00</div>
+                            <div class="commit_num">98楼</div>
+                        </div>
+                        <div class="commit_info">
+                        	<span class="topic">#拾年#</span>在2008年与医脉通相识。最初是使用全医药学大词典大词典，不知不觉8年了。祝医脉通10周年快乐!越办越好！这里的文字比较多很长很长很长比较场比较，最初是使用全医药学大词典大词典，不知不觉8年了。若数字超过了140个字，就以省略。祝医脉通10周年快乐!越办越好！这里的文字比较多很长比较场。欢迎大家分享你与医脉通的故事，说说流过你指尖的十年点击收起全文时，回到省略状态。
+                        </div>
+                    </div>
+                </div>
+                <div class="commit_ship">
+                	<div class="user_img"><img src="res/images/user_img.jpg" /></div>
+                    <div class="commit_txt">
+                    	<div class="commit_txt_top">
+                        	<div class="commit_user">雲间烟火</div>
+                            <div class="commit_time">5-18 14:00</div>
+                            <div class="commit_num">97楼</div>
+                        </div>
+                        <div class="commit_info">
+                        	<span class="topic">#拾年#</span>在2008年与医脉通相识。最初是使用全医药学大词典大词典，不知不觉8年了。祝医脉通10周年快乐!越办越好！
+                        </div>
+                        <div class="user_com_img"><img src="res/images/u2.jpg" /></div>
+                    </div>
+                </div>
+            </div>
+            <div class="show_more"><a href="JavaScript:void(0)">查看更多</a></div>
+        </div>
+    </div>
+    <div class="foot clearfix">
+    	<div class="foot_box"><img src="res/images/f_icon1.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon2.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon_w3.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon4.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon5.png" /></div>
+    </div>
+    <div class="edit_box"><a href="#"><img src="res/images/edit_btn.png" /></a></div>
+    <div class="shadow"></div>
+    <div class="img_pop"><img /><span></span></div>
+    <script>
+		//展开全文
+		$('.commit_info').each(function(i) {
+            if($(this).height()>140){
+				$(this).addClass("hei_140");
+				$(this).append("<a href='javascript:void(0)' class='show_btn'>... 展开全文<img src='res/images/arrow_bottom.png' /></a>");
+				$(this).append("<a href='javascript:void(0)' class='close_btn'>收起全文<img src='res/images/arrow_top.png' /></a>");
+			}
+        });
+		$('.show_btn').click(function(){
+			$(this).hide();
+			$(this).parent('.commit_info').removeClass("hei_140").addClass("show_all").children('.close_btn').show();
+		})
+		$('.close_btn').click(function(){
+			$(this).hide();
+			$(this).parent('.commit_info').removeClass("show_all").addClass("hei_140").children('.show_btn').show();
+		})
+		//图片放大
+		$('.user_com_img img').click(function(){			
+			$('.shadow').show();
+			$('.img_pop').show().children('img').attr("src",$(this).attr("src"));
+			var winW = $(window).width();
+			var winH = $(window).height();
+			var imgW = $('.img_pop img').width();
+			var imgH = $('.img_pop img').height();
+			var winS = winW/winH;
+			var imgS = imgW/imgH;
+			if(winS<imgS){
+				imgW=(imgW>winW)?winW:imgW;
+				$('.img_pop img').width(imgW).height("auto");				
+			}else{
+				imgH=(imgH>winH)?winH:imgH;
+				$('.img_pop img').height(imgH).width("auto");
+			}
+		});
+		$('.shadow,.img_pop').click(function(){
+			resetFn();	
+		});
+		function resetFn(){
+			$('.shadow').hide();
+			$('.img_pop').hide().children('img').attr("src","");
+			$('.img_pop img').width("auto").height("auto");
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>5-专家寄语</title>
+<link href="res/css/style.css" type="text/css" rel="stylesheet" />
+<script src="res/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="res/js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+</head>
+
+<body class="bg5">
+	<div class="page5">
+    	<div class="p5_title"><img src="res/images/p5_title.png" /></div>
+        <div class="p5_photo">
+        	<div class="p5_photo_box bd">
+            	<ul>
+                	<li><img src="res/images/p5_img1.jpg" /></li>
+                    <li><img src="res/images/p5_img2.jpg" /></li>
+                    <li><img src="res/images/p5_img3.jpg" /></li>
+                    <li><img src="res/images/p5_img4.jpg" /></li>
+                    <li><img src="res/images/p5_img5.jpg" /></li>
+                    <li><img src="res/images/p5_img6.jpg" /></li>
+                    <li><img src="res/images/p5_img7.jpg" /></li>
+                    <li><img src="res/images/p5_img8.jpg" /></li>
+                    <li><img src="res/images/p5_img9.jpg" /></li>
+                    <li><img src="res/images/p5_img10.jpg" /></li>
+                    <li><img src="res/images/p5_img11.jpg" /></li>
+                    <li><img src="res/images/p5_img12.jpg" /></li>
+                </ul>
+            </div>
+            <a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+        </div>
+    </div>
+    <div class="foot clearfix">
+    	<div class="foot_box"><img src="res/images/f_icon1.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon2.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon3.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon_w4.png" /></div>
+        <div class="foot_box"><img src="res/images/f_icon5.png" /></div>
+    </div>
+    <script>
+		var winW = $(window).width();
+		$('.p5_photo_box,.p5_photo_box li').height(winW*480/640);
+		jQuery(".p5_photo").slide({mainCell:".bd ul",autoPlay:true});
+	</script>
+</body>
+</html>

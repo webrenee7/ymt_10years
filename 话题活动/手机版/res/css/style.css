@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+html{ min-height:100%;}
+body{ width:100%; min-height:100%; font:14px/20px 'Microsoft YaHei'; color:#333; background:#f2f2f2; -webkit-overflow-scrolling:touch;}
+*{padding:0; margin:0;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+ul,ul li{ list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+a{ color:#000; text-decoration:none;}
+a:focus{ outline:none; -moz-outline:none;}
+.left{ float:left;}
+.right{ float:right;}
+.center{ text-align:center;}
+.break{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+select,select:focus{ outline:none}
+input,textarea,select{ background:none; border:none; -webkit-appearance:none; font-family:"Microsoft YaHei"; line-height:normal; outline:none;}
+.btn{ background:none; border:none; line-height:normal; cursor:pointer;}
+img{ border:medium none;}
+
+/*index*/
+.page{ min-height:100%; background:#021428;}
+.page img{ width:100%; display:block;}
+.page_enter{ width:78%; margin:0 auto; -webkit-transform:translateY(-100%);}
+.page_enter a{ display:block;}
+.page_logo{ width:38%; margin:-6% auto 0; padding:0 0 8%;}
+
+/*info*/
+.info_bg{ background:url(../images/info_bg.jpg) no-repeat top #f2f2f2; background-size:100% auto;}
+.top{ padding-top:14px;}
+.txt_title{ background:url(../images/txt_border.jpg) no-repeat left center; padding-left:16px; font-weight:bold; color:#fbac01;}
+.banner{ width:90%; margin:14px auto 0;}
+.banner_ship{}
+.banner_img{ border:1px solid #dedddd;}
+.banner_img img{ width:100%;}
+.banner_txt{padding:0 9px; height:30px; line-height:30px; background:#fff; margin-top:1px; font-size:15px;}
+.commit{ margin-top:20px;}
+.commit_list{}
+.commit_ship{ margin-top:7px; display:-webkit-box; background:#fff; padding:5px 10px 10px; border-top:1px solid #dedddd; border-bottom:1px solid #dedddd;}
+.user_img{ margin-top:5px;}
+.user_img,.user_img img{ width:33px; height:33px;}
+.commit_txt{ -webkit-box-flex:1; margin-left:10px;}
+.commit_txt_top{ display:-webkit-box; line-height:24px;}
+.commit_user{ -webkit-box-flex:1; font-size:14px; color:#000; font-weight:bold;}
+.commit_time{ width:70px;}
+.commit_num{ margin-left:3px; width:35px;}
+.commit_time,.commit_num{ font-size:12px; color:#999;}
+.commit_info{ font-size:15px; color:#000; position:relative; margin-top:7px;}
+.commit_info.hei_140{ height:140px; overflow:hidden;}
+.commit_info.show_all{ height:auto;}
+.topic{ color:#0066cc; margin-right:5px;}
+
+.show_btn{ background:#fff; position:absolute; bottom:0; right:0; padding-left:11px; font-weight:bold; color:#333;}
+.show_btn,.close_btn{ padding-left:11px; font-weight:bold; color:#333;}
+.close_btn{ display:none;}
+.show_btn img,.close_btn img{ margin-left:8px;}
+
+.user_com_img{ margin-top:2px;}
+.user_com_img img{ width:75px; height:75px;}
+
+/*大图弹窗*/
+.shadow{ width:100%; height:100%; position:fixed; top:0; left:0; background:rgba(0,0,0,0.7); display:none; z-index:9; }
+.img_pop{ width:100%; height:100%; text-align:center; position:fixed; left:0; top:0; display:none; z-index:10;}
+.img_pop span{ height:100%; display:inline-block;}
+.img_pop span,.img_pop img{ vertical-align:middle;}
+
+.show_more{ border-top:1px solid #dedddd; margin-top:7px; height:49px; line-height:49px; font-size:13px; text-align:center; background:#fff;}
+.edit_box{ width:17.5%; position:fixed; right:10px; bottom:10px; z-index:8;}
+.edit_box a,.edit_box img{ display:block; width:100%; vertical-align:middle;}
+
+/*input*/
+.input_head{ height:44px; background:#02288b; padding:0 5px; display:-webkit-box;}
+.cancel_btn,.submit_btn{ width:49px; height:24px; display:block; margin-top:10px; font-size:15px;}
+.cancel_btn{ color:#fff;}
+.has_con{ background:#fd7400; border-radius:5px; color:#fff;}
+.no_con{border-radius:5px; border:1px solid #999; color:#999;}
+.input_title{ font-size:18px; color:#fff; font-weight:bold; display:block; line-height:44px; text-align:center; padding:0 5px; -webkit-box-flex:1;}
+.input_textarea{ padding:0 10px; margin-top:15px;}
+.input_textarea textarea{ width:100%; height:122px; border:1px solid #e4e3e3; background:#fff; resize:none; box-sizing:border-box; padding:7px 10px; font-size:14px; line-height:20px;}
